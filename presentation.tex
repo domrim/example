@@ -1,0 +1,56 @@
+%% Beispiel-Präsentation
+\documentclass{beamer} 
+
+\title[Beamer-Vorlage]{Präsentation mit \LaTeX{} Beamer}
+\subtitle{entsprechend den Gestaltungsrichtlinien vom 1. August 2020} 
+\author[Pinkie Pie]{Pinkie Pie}
+
+\date[8.\,12.\,2020]{8. Dezember 2020}
+
+
+\begin{document}
+
+\begin{frame}{Inhaltsverzeichnis}
+\tableofcontents
+\end{frame}
+
+\section{Erster Abschnitt}
+
+\subsection{Erster Unterabschnitt}
+\begin{frame}{Blöcke}
+
+\end{frame}
+	  
+\subsection{Zweiter Unterabschnitt}
+\begin{frame}{Auflistungen}
+	Text
+	\begin{itemize}
+		\item Auflistung\\ Umbruch
+		\item Auflistung
+		\begin{itemize}
+			\item Auflistung
+			\item Auflistung
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\section{Zweiter Abschnitt}
+
+\begin{frame}
+        Bei Frames ohne Titel wird die Kopfzeile nicht angezeigt, und  
+    der freie Platz kann für Inhalte genutzt werden.
+\end{frame}
+
+\begin{frame}[plain]
+    Bei Frames mit Option \texttt{[plain]} werden weder Kopf- noch Fußzeile angezeigt.
+\end{frame}
+
+\begin{frame}[t]{Beispielinhalt}
+    Bei Frames mit Option \texttt{[t]} werden die Inhalte nicht vertikal zentriert, sondern an der Oberkante begonnen.
+\end{frame}
+
+\begin{frame}{Beispielinhalt: Literatur}
+    Literaturzitat:
+\end{frame}
+
+\end{document}
